@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Калькулятор (проба для понимания процесса)</title>
+<style>
+body {
+    margin: 30px;
+    background: url('/img/wall.jpg') no-repeat center top fixed;
+    background-size: 100%;
+}
+</style>
+</head>
+<body>
+<form>
+Первое число: <input type="number" id="firstNumber" /><br>
+Второе число: <input type="number" id="secondNumber" /><br>
+<input type="button" onClick="add()" Value="Add" />
+<input type="button" onClick="subtract()" Value="Subtract" />
+<input type="button" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" onClick="divideBy()" Value="Divide" />
+</form>
+<p>Результат: <br>
+<span id = "result"></span>
+</p>
+<script src="task2.js"></script>
+</body>
+</html>
